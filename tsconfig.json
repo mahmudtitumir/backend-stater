@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext", // Use "NodeNext" for Node.js 18+ with ES modules
+        "moduleResolution": "NodeNext", // Use "NodeNext" for Node.js module resolution
+        "baseUrl": "src", // Base directory for module resolution
+        "outDir": "dist", // Output directory for compiled files
+        "sourceMap": true, // Generate source maps for debugging
+        "noImplicitAny": true // Raise error on expressions and declarations with an implied 'any' type
+    },
+    "include": ["src/**/*"] // Include all TypeScript files in the src directory
+}
